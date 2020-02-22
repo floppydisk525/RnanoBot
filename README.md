@@ -10,10 +10,12 @@ The repository name RnanoBot comes from "aRduino NANO roBOT" motor shield with T
 ### Datasheets  
 Datasheets are in the https://github.com/floppydisk525/RnanoBot/tree/master/board/datasheets folder.  
 ### Typical Application  
-Here are some of the typical application images for key componets.  
+Here are typical application images for key componets.  
 #### TB6612  
-![alt text][tb6612]
-
+![alt text][tb6612]  
+#### LSM9DS1TR  
+![alt text][lsm9ds1]
+![alt text][lsm9ds1_spark]
 
 ### References
 https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
@@ -27,3 +29,5 @@ https://www.st.com/resource/en/datasheet/lsm9ds1.pdf
 
 
 [tb6612]:/board/datasheets/tb6612%20typical%20application%20diagram.PNG "TB6612 Typical Application Diagram"
+[lsm9ds1]:/board/datasheets/lsm9ds1%20application%20hints.PNG "LSM9DS1TR Application Hint from Datasheet"
+[lsm9ds1_spark]:/board/datasheets/sparkfun%20i2c%20wiring%20image.PNG "LSM9DS1TR Spark Fun I2C Wiring example"
