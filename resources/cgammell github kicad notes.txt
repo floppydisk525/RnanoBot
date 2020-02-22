@@ -1,0 +1,23 @@
+Chris Gammell's youtube video notes on KiCAD 5.1 and github
+https://www.youtube.com/watch?v=gGix1oYhTRs
+
+
+1. Create new repository on the web.
+	Select .gitignore KICAD and MIT License
+2. Clone repository on local system.  
+	2.1	Copy link to clip board  from github (https://github.com/floppydisk525/RnanoBot.git)
+	2.2 git clone https://github.com/floppydisk525/RnanoBot.git
+		Note - directory is created in the folder that you issue the command.  So do not 
+		create a directory the name of your git project because then the folder will be
+		.../documents/somefolder/projfold/projfold  
+		Issue the git clone command in the /somefolder/ folder...
+3.  Copy files to new direcotry, may need to change KiCAD file names to match folder that the
+	files are saved in.
+
+OTHER GITHUB NOTES
+Good site for looking better IGNORE code
+https://jnavila.github.io/plotkicadsch/
+
+Used this repository as an exmaple for folder structure
+https://github.com/John-Nagle/ttyloopdriver
+
