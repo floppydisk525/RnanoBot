@@ -22,6 +22,8 @@ The following cut/paste is from:  https://learn.sparkfun.com/tutorials/lsm9ds1-b
 I really like this Arduino NANO pinout from Components 101 https://components101.com/microcontrollers/arduino-nano  
 ![alt text][ardnano]
 
+![alt text][ard_dim]
+
 ### References
 https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
 https://www.sparkfun.com/products/13944  
@@ -31,9 +33,11 @@ https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TB66
 https://components101.com/microcontrollers/arduino-nano  
 https://www.youtube.com/watch?v=gGix1oYhTRs  
 https://www.st.com/resource/en/datasheet/lsm9ds1.pdf  
+http://cheasokchenda.blogspot.com/2018/05/you-can-click-on-link-bellow-to-get-6.html  
 
 
 [tb6612]:/board/datasheets/tb6612%20typical%20application%20diagram.PNG "TB6612 Typical Application Diagram"
 [lsm9ds1]:/board/datasheets/lsm9ds1%20application%20hints.PNG "LSM9DS1TR Application Hint from Datasheet"
 [lsm9ds1_spark]:/board/datasheets/sparkfun%20i2c%20wiring%20image.PNG "LSM9DS1TR Spark Fun I2C Wiring example"
 [ardnano]:/board/datasheets/Arduino-Nano-Pinout.png "Arduino NANO Pinout from Components 101"
+[ard_dim]:/board/datasheets/arduino%20nano%20dim.PNG "Arduino Physical Dimensions"
