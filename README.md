@@ -1,12 +1,11 @@
 # RnanoBot
-RnanoBot - "aRduino NANO roBOT" motor shield with TB6612 &amp; LSM9DS1TR  
-
 This github repository contains the KiCAD files and supporting documents for an Arduino Nano shield containing a TB6612 motor driver chip and LSM9DS1TR 9DOF IMU.  
 
 The TB6612 circuit was influenced from https://github.com/floppydisk525/BoxBotCtrlBrd, which in turn was influenced from https://github.com/BoxBots/control-board.  
 
-The LSM9DS1TR chip was influenced from spark fun such as https://www.sparkfun.com/products/13944, among other sparkfun projects.    
-  
+The LSM9DS1TR chip was influenced from sparkfun projects such as https://www.sparkfun.com/products/13944 and others.  
+
+The repository name RnanoBot comes from "aRduino NANO roBOT" motor shield with TB6612 &amp; LSM9DS1TR  
 ### References
 https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
 https://www.sparkfun.com/products/13944  
