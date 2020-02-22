@@ -9,17 +9,17 @@ The repository name RnanoBot comes from "aRduino NANO roBOT" motor shield with T
 
 ### Datasheets  
 Datasheets are in the https://github.com/floppydisk525/RnanoBot/tree/master/board/datasheets folder.  
-### Typical Application Notes  
+# Typical Application Notes  
 Here are typical application images for key componets.  
-#### TB6612  
+## TB6612  
 ![alt text][tb6612]  
-#### LSM9DS1TR  
+## LSM9DS1TR  
 ![alt text][lsm9ds1]  
-The following cut/paste is from:  https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
+The following cut/paste is from:  https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide:  
 ![alt text][lsm9ds1_spark]  
 
-#### Arduino NANO Pinout  
-I really like this Arduino NANO pinout from Components 101 https://components101.com/microcontrollers/arduino-nano  
+## Arduino NANO Pinout  
+I really like this Arduino NANO pinout from Components 101 https://components101.com/microcontrollers/arduino-nano:  
 ![alt text][ardnano]
 
 ![alt text][ard_dim]
