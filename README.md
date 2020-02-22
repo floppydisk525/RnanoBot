@@ -14,7 +14,8 @@ Here are typical application images for key componets.
 #### TB6612  
 ![alt text][tb6612]  
 #### LSM9DS1TR  
-![alt text][lsm9ds1]
+![alt text][lsm9ds1]  
+The following cut/paste is from:  https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
 ![alt text][lsm9ds1_spark]
 
 ### References
