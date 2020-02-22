@@ -5,7 +5,16 @@ The TB6612 circuit was influenced from https://github.com/floppydisk525/BoxBotCt
 
 The LSM9DS1TR chip was influenced from sparkfun projects such as https://www.sparkfun.com/products/13944 and others.  
 
-The repository name RnanoBot comes from "aRduino NANO roBOT" motor shield with TB6612 &amp; LSM9DS1TR  
+The repository name RnanoBot comes from "aRduino NANO roBOT" motor shield with TB6612 &amp; LSM9DS1TR.  
+
+### Datasheets  
+Datasheets are in the https://github.com/floppydisk525/RnanoBot/tree/master/board/datasheets folder.  
+### Typical Application  
+Here are some of the typical application images for key componets.  
+#### TB6612  
+![alt text][tb6612]
+
+
 ### References
 https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide  
 https://www.sparkfun.com/products/13944  
@@ -15,3 +24,6 @@ https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TB66
 https://components101.com/microcontrollers/arduino-nano  
 https://www.youtube.com/watch?v=gGix1oYhTRs  
 https://www.st.com/resource/en/datasheet/lsm9ds1.pdf  
+
+
+[tb6612]:/board/datasheets/tb6612%20typical%20application%20diagram.PNG "TB6612 Typical Application Diagram"
