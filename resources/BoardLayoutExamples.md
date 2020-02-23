@@ -2,20 +2,20 @@
 
 The idea is that the board will be a motor shield and accept an arduino Nano.  It is based off the [BoxBotCtrlBrd](https://github.com/floppydisk525/BoxBotCtrlBrd) project and is an improved shield with an ICU added for better control and more capabilities.  
 
-# BoxBotCtrlBrd Images  
+## BoxBotCtrlBrd Images  
 [BoxBotCtrlBrd](https://github.com/floppydisk525/BoxBotCtrlBrd) Project  
 ![alt text][boxbot1]  
 ![alt text][boxbot2]  
 
 
-[rapidonline Example:](https://www.rapidonline.com/arduino-asx00004-mkr-485-rs485-protocol-shield-for-industrial-connections-73-4854)  
+## [Rapidonline Example:](https://www.rapidonline.com/arduino-asx00004-mkr-485-rs485-protocol-shield-for-industrial-connections-73-4854)  
 ![alt text][rapidonline1]  
 ![alt text][rapidonline2]  
 
-[Openhardware IO Shield](https://www.openhardware.io/view/710/Arduino-Nano-NRF24L01-Shield#tabs-comments)  
+## [Openhardware IO Shield](https://www.openhardware.io/view/710/Arduino-Nano-NRF24L01-Shield#tabs-comments)  
 ![alt text][openhardware]  
 
-[Freelance Nano Motor Shield Example](https://www.freelancer.com/u/vortexe9000/portfolio/Arduino-Nano-v30-shield-for-small-DC-motors-3527320)  
+## [Freelance Nano Motor Shield Example](https://www.freelancer.com/u/vortexe9000/portfolio/Arduino-Nano-v30-shield-for-small-DC-motors-3527320)  
 ![alt text][freelance1]  
 ![alt text][freelance2]  
 
