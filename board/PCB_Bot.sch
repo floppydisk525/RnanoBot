@@ -293,8 +293,8 @@ Text GLabel 1000 1300 2    50   Input ~ 0
 5V
 Text GLabel 1150 1150 2    50   Input ~ 0
 3V3
-Text Notes 800  2150 0    50   ~ 0
-to do\nadd connectors to wire in power, motors\nother break out??
+Text Notes 650  3900 0    50   ~ 0
+TO DO or THINK ABOUT\nOther break out features??\nAdd to PCB mounting holes for M3 (?) or M2.5\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\nreverse voltage protection (ie mosfet?)
 $Comp
 L power:+7.5V #PWR?
 U 1 1 5E560050
@@ -806,7 +806,7 @@ Connection ~ 3200 4500
 Wire Wire Line
 	3200 4500 3500 4500
 $Bitmap
-Pos 1800 2700
+Pos 3100 7300
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 B3 00 00 00 BA 08 02 00 00 00 32 15 52 
