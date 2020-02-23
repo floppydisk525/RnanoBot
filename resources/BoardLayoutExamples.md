@@ -18,6 +18,9 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 ![alt text][freelance1]  
 ![alt text][freelance2]  
 
+# [CE Nano Shield Example](https://shop.controleverything.com/products/arduino-nano-i2c-shield)  
+![alt text][ce]  
+
 [rapidonline1]:/images/rapidonline1.PNG "Shield Example"
 [rapidonline2]:/images/rapidonline2.PNG "Shield Example"
 [openhardware]:/images/openhardware.PNG "Shield Example"
@@ -25,3 +28,4 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 [freelance2]:/images/freelance2.PNG "Shield Example"
 [boxbot1]:/images/IMG_20160724_100359.jpg "Shield Example"
 [boxbot2]:/images/IMG_20160724_100326.jpg "Shield Example"
+[ce]:/images/ce_nano_breakout.png "Shield Example"
