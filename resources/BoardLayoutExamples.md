@@ -4,13 +4,18 @@ The idea is that the board will be a motor shield and accept an arduino Nano.
 
 
 [rapidonline Example:](https://www.rapidonline.com/arduino-asx00004-mkr-485-rs485-protocol-shield-for-industrial-connections-73-4854)
-![alt text][rapidonlineImage1]
-![alt text][rapidonlineImage2]
+![alt text][rapidonline1]
+![alt text][rapidonline2]
 
 [Openhardware IO Shield](https://www.openhardware.io/view/710/Arduino-Nano-NRF24L01-Shield#tabs-comments)
+![alt text][openhardware]
 
-[Freelance Nano Motor Shield Exmaple](https://www.freelancer.com/u/vortexe9000/portfolio/Arduino-Nano-v30-shield-for-small-DC-motors-3527320)
+[Freelance Nano Motor Shield Example](https://www.freelancer.com/u/vortexe9000/portfolio/Arduino-Nano-v30-shield-for-small-DC-motors-3527320)
+![alt text][freelance1]
+![alt text][freelance2]
 
-
-[rapidonline1]:/board/datasheets/tb6612%20typical%20application%20diagram.PNG "TB6612 Typical Application Diagram"
-[rapidonline2]:
+[rapidonline1]:/images/rapidonline1.PNG "Shield Example"
+[rapidonline2]:/images/rapidonline2.PNG "Shield Example"
+[openhardware]:/images/openhardware.PNG "Shield Example"
+[freelance1]:/images/freelance1.PNG "Shield Example"
+[freelance2]:/images/freelance2.PNG "Shield Example"
