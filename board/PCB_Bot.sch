@@ -25,23 +25,23 @@ F 3 "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x15_Top_Bottom J?
+L Connector_Generic:Conn_02x15_Top_Bottom J2
 U 1 1 5E50BAC2
 P 8650 2250
-F 0 "J?" H 8700 3167 50  0000 C CNN
+F 0 "J2" H 8700 3167 50  0000 C CNN
 F 1 "Conn_02x15_Top_Bottom" H 8700 3076 50  0000 C CNN
-F 2 "" H 8650 2250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical" H 8650 2250 50  0001 C CNN
 F 3 "~" H 8650 2250 50  0001 C CNN
 	1    8650 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x15_Top_Bottom J?
+L Connector_Generic:Conn_02x15_Top_Bottom J3
 U 1 1 5E512BAE
 P 10300 2250
-F 0 "J?" H 10350 3167 50  0000 C CNN
+F 0 "J3" H 10350 3167 50  0000 C CNN
 F 1 "Conn_02x15_Top_Bottom" H 10350 3076 50  0000 C CNN
-F 2 "" H 10300 2250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical" H 10300 2250 50  0001 C CNN
 F 3 "~" H 10300 2250 50  0001 C CNN
 	1    10300 2250
 	1    0    0    -1  
@@ -268,10 +268,10 @@ Wire Wire Line
 	10100 2950 10600 2950
 Connection ~ 10100 2950
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR03
 U 1 1 5E559F29
 P 1050 950
-F 0 "#PWR?" H 1050 800 50  0001 C CNN
+F 0 "#PWR03" H 1050 800 50  0001 C CNN
 F 1 "+3V3" V 1065 1078 50  0000 L CNN
 F 2 "" H 1050 950 50  0001 C CNN
 F 3 "" H 1050 950 50  0001 C CNN
@@ -279,10 +279,10 @@ F 3 "" H 1050 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR02
 U 1 1 5E55AD93
 P 900 950
-F 0 "#PWR?" H 900 800 50  0001 C CNN
+F 0 "#PWR02" H 900 800 50  0001 C CNN
 F 1 "+5V" V 915 1078 50  0000 L CNN
 F 2 "" H 900 950 50  0001 C CNN
 F 3 "" H 900 950 50  0001 C CNN
@@ -296,10 +296,10 @@ Text GLabel 1150 1150 2    50   Input ~ 0
 Text Notes 650  3900 0    50   ~ 0
 TO DO or THINK ABOUT\nOther break out features??\nAdd to PCB mounting holes for M3 (?) or M2.5\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\nreverse voltage protection (ie mosfet?)
 $Comp
-L power:+7.5V #PWR?
+L power:+7.5V #PWR01
 U 1 1 5E560050
 P 750 950
-F 0 "#PWR?" H 750 800 50  0001 C CNN
+F 0 "#PWR01" H 750 800 50  0001 C CNN
 F 1 "+7.5V" V 765 1078 50  0000 L CNN
 F 2 "" H 750 950 50  0001 C CNN
 F 3 "" H 750 950 50  0001 C CNN
@@ -353,10 +353,10 @@ D5
 Wire Wire Line
 	3700 2550 4050 2550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5E535007
 P 4350 3400
-F 0 "#PWR?" H 4350 3150 50  0001 C CNN
+F 0 "#PWR07" H 4350 3150 50  0001 C CNN
 F 1 "GND" H 4355 3227 50  0000 C CNN
 F 2 "" H 4350 3400 50  0001 C CNN
 F 3 "" H 4350 3400 50  0001 C CNN
@@ -374,32 +374,32 @@ Wire Wire Line
 Wire Wire Line
 	3700 2350 4050 2350
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5E546099
 P 5250 1000
-F 0 "C?" H 5365 1046 50  0000 L CNN
+F 0 "C3" H 5365 1046 50  0000 L CNN
 F 1 "0.1uF" H 5365 955 50  0000 L CNN
-F 2 "" H 5288 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 850 50  0001 C CNN
 F 3 "~" H 5250 1000 50  0001 C CNN
 	1    5250 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5E58DEAB
 P 3300 1000
-F 0 "C?" H 3415 1046 50  0000 L CNN
+F 0 "C1" H 3415 1046 50  0000 L CNN
 F 1 "0.1uF" H 3415 955 50  0000 L CNN
-F 2 "" H 3338 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 850 50  0001 C CNN
 F 3 "~" H 3300 1000 50  0001 C CNN
 	1    3300 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5E591658
 P 3300 1350
-F 0 "#PWR?" H 3300 1100 50  0001 C CNN
+F 0 "#PWR05" H 3300 1100 50  0001 C CNN
 F 1 "GND" H 3305 1177 50  0000 C CNN
 F 2 "" H 3300 1350 50  0001 C CNN
 F 3 "" H 3300 1350 50  0001 C CNN
@@ -407,10 +407,10 @@ F 3 "" H 3300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5E59215C
 P 5750 1350
-F 0 "#PWR?" H 5750 1100 50  0001 C CNN
+F 0 "#PWR06" H 5750 1100 50  0001 C CNN
 F 1 "GND" H 5755 1177 50  0000 C CNN
 F 2 "" H 5750 1350 50  0001 C CNN
 F 3 "" H 5750 1350 50  0001 C CNN
@@ -436,23 +436,23 @@ Wire Wire Line
 Wire Wire Line
 	5750 1250 5750 1350
 $Comp
-L Device:CP1 C?
+L Device:CP1 C4
 U 1 1 5E5ACC00
 P 5750 1000
-F 0 "C?" H 5865 1046 50  0000 L CNN
+F 0 "C4" H 5865 1046 50  0000 L CNN
 F 1 "10uF" H 5865 955 50  0000 L CNN
-F 2 "" H 5750 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 1000 50  0001 C CNN
 F 3 "~" H 5750 1000 50  0001 C CNN
 	1    5750 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C2
 U 1 1 5E5ADB00
 P 3900 1000
-F 0 "C?" H 4015 1046 50  0000 L CNN
+F 0 "C2" H 4015 1046 50  0000 L CNN
 F 1 "10uF" H 4015 955 50  0000 L CNN
-F 2 "" H 3900 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3900 1000 50  0001 C CNN
 F 3 "~" H 3900 1000 50  0001 C CNN
 	1    3900 1000
 	1    0    0    -1  
@@ -512,10 +512,10 @@ Wire Wire Line
 Wire Wire Line
 	1050 1150 1150 1150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5E51BDF2
 P 1600 1150
-F 0 "#PWR?" H 1600 900 50  0001 C CNN
+F 0 "#PWR04" H 1600 900 50  0001 C CNN
 F 1 "GND" H 1605 977 50  0000 C CNN
 F 2 "" H 1600 1150 50  0001 C CNN
 F 3 "" H 1600 1150 50  0001 C CNN
@@ -523,10 +523,10 @@ F 3 "" H 1600 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5E6B0C8B
 P 4600 7100
-F 0 "#PWR?" H 4600 6850 50  0001 C CNN
+F 0 "#PWR010" H 4600 6850 50  0001 C CNN
 F 1 "GND" H 4605 6927 50  0000 C CNN
 F 2 "" H 4600 7100 50  0001 C CNN
 F 3 "" H 4600 7100 50  0001 C CNN
@@ -553,23 +553,23 @@ Connection ~ 5450 6400
 Wire Wire Line
 	5450 6400 5450 6950
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5E6E7691
 P 3550 6700
-F 0 "C?" H 3665 6746 50  0000 L CNN
+F 0 "C9" H 3665 6746 50  0000 L CNN
 F 1 "100nF" H 3665 6655 50  0000 L CNN
-F 2 "" H 3588 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3588 6550 50  0001 C CNN
 F 3 "~" H 3550 6700 50  0001 C CNN
 	1    3550 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5E6E884E
 P 3100 6700
-F 0 "C?" H 3215 6746 50  0000 L CNN
+F 0 "C8" H 3215 6746 50  0000 L CNN
 F 1 "10nF" H 3215 6655 50  0000 L CNN
-F 2 "" H 3138 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 6550 50  0001 C CNN
 F 3 "~" H 3100 6700 50  0001 C CNN
 	1    3100 6700
 	1    0    0    -1  
@@ -593,10 +593,10 @@ Connection ~ 4400 6950
 Text GLabel 5950 750  2    50   Input ~ 0
 VIN
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5E769C6B
 P 5500 5050
-F 0 "#PWR?" H 5500 4800 50  0001 C CNN
+F 0 "#PWR09" H 5500 4800 50  0001 C CNN
 F 1 "GND" H 5600 4950 50  0000 C CNN
 F 2 "" H 5500 5050 50  0001 C CNN
 F 3 "" H 5500 5050 50  0001 C CNN
@@ -604,10 +604,10 @@ F 3 "" H 5500 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5E76A1FF
 P 4100 4950
-F 0 "#PWR?" H 4100 4700 50  0001 C CNN
+F 0 "#PWR08" H 4100 4700 50  0001 C CNN
 F 1 "GND" H 4200 4850 50  0000 C CNN
 F 2 "" H 4100 4950 50  0001 C CNN
 F 3 "" H 4100 4950 50  0001 C CNN
@@ -644,34 +644,34 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5E731103
 P 5050 4750
-F 0 "C?" H 5165 4796 50  0000 L CNN
+F 0 "C6" H 5165 4796 50  0000 L CNN
 F 1 "10nF" H 5165 4705 50  0000 L CNN
-F 2 "" H 5088 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 4600 50  0001 C CNN
 F 3 "~" H 5050 4750 50  0001 C CNN
 	1    5050 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5E732AB1
 P 5500 4750
-F 0 "C?" H 5615 4796 50  0000 L CNN
+F 0 "C7" H 5615 4796 50  0000 L CNN
 F 1 "100nF" H 5615 4705 50  0000 L CNN
-F 2 "" H 5538 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5538 4600 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
 	1    5500 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5E73342D
 P 4100 4750
-F 0 "C?" H 4215 4796 50  0000 L CNN
+F 0 "C5" H 4215 4796 50  0000 L CNN
 F 1 "100nF" H 4215 4705 50  0000 L CNN
-F 2 "" H 4138 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 4600 50  0001 C CNN
 F 3 "~" H 4100 4750 50  0001 C CNN
 	1    4100 4750
 	1    0    0    -1  
@@ -736,23 +736,23 @@ Wire Wire Line
 Wire Wire Line
 	5200 5500 5400 5500
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5E8B4EDF
 P 3500 5050
-F 0 "R?" H 3570 5096 50  0000 L CNN
+F 0 "R2" H 3570 5096 50  0000 L CNN
 F 1 "4.7K" H 3570 5005 50  0000 L CNN
-F 2 "" V 3430 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 5050 50  0001 C CNN
 F 3 "~" H 3500 5050 50  0001 C CNN
 	1    3500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5E8B57A0
 P 3200 5050
-F 0 "R?" H 3270 5096 50  0000 L CNN
+F 0 "R1" H 3270 5096 50  0000 L CNN
 F 1 "4.7K" H 3270 5005 50  0000 L CNN
-F 2 "" V 3130 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 5050 50  0001 C CNN
 F 3 "~" H 3200 5050 50  0001 C CNN
 	1    3200 5050
 	1    0    0    -1  
@@ -5594,12 +5594,12 @@ A5 10 25 95 6E 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L Connector:Screw_Terminal_01x06 J?
+L Connector:Screw_Terminal_01x06 J1
 U 1 1 5EAC1545
 P 6600 2050
-F 0 "J?" H 6680 2042 50  0000 L CNN
+F 0 "J1" H 6680 2042 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" H 6680 1951 50  0000 L CNN
-F 2 "" H 6600 2050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-5-2.5-V-THR_1x05_P2.50mm_Vertical" H 6600 2050 50  0001 C CNN
 F 3 "~" H 6600 2050 50  0001 C CNN
 	1    6600 2050
 	1    0    0    -1  
@@ -5660,4 +5660,9 @@ Wire Wire Line
 	6200 2250 6400 2250
 Wire Wire Line
 	6200 2350 6400 2350
+NoConn ~ 5200 5700
+NoConn ~ 5200 5800
+NoConn ~ 3800 6000
+NoConn ~ 3800 6100
+NoConn ~ 3800 6200
 $EndSCHEMATC
