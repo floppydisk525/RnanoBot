@@ -208,7 +208,7 @@ Text GLabel 1000 1300 2    50   Input ~ 0
 Text GLabel 1150 1150 2    50   Input ~ 0
 3V3
 Text Notes 650  3900 0    50   ~ 0
-TO DO or THINK ABOUT\nOther break out features??\nAdd to PCB mounting holes for M3 (?) or M2.5\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\nreverse voltage protection (ie mosfet?)
+TO DO or THINK ABOUT\nterminal blocks\n  2 pos for batt\n  4 pos for motor\n  3 pos for rc pwm input\nAdd to PCB mounting holes for M3 (?) or M2.5\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nReverse voltage protection (ie mosfet?) for battery input\nOther break out features??\n  What about Serial separate from usb (Look into this)\nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\n
 $Comp
 L power:+7.5V #PWR01
 U 1 1 5E560050
