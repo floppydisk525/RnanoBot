@@ -25,7 +25,7 @@ F 3 "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x15_Top_Bottom J2
+L Connector_Generic:Conn_02x15_Odd_Even J2
 U 1 1 5E50BAC2
 P 8650 2250
 F 0 "J2" H 8700 3167 50  0000 C CNN
@@ -33,17 +33,6 @@ F 1 "Conn_02x15_Top_Bottom" H 8700 3076 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical" H 8650 2250 50  0001 C CNN
 F 3 "~" H 8650 2250 50  0001 C CNN
 	1    8650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x15_Top_Bottom J3
-U 1 1 5E512BAE
-P 10300 2250
-F 0 "J3" H 10350 3167 50  0000 C CNN
-F 1 "Conn_02x15_Top_Bottom" H 10350 3076 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical" H 10300 2250 50  0001 C CNN
-F 3 "~" H 10300 2250 50  0001 C CNN
-	1    10300 2250
 	1    0    0    -1  
 $EndComp
 Text GLabel 9100 1550 2    50   Input ~ 0
@@ -192,81 +181,6 @@ Text GLabel 9900 2850 0    50   Input ~ 0
 3V3
 Text GLabel 9900 2950 0    50   Input ~ 0
 D13
-Wire Wire Line
-	9900 1550 10100 1550
-Wire Wire Line
-	9900 1650 10100 1650
-Wire Wire Line
-	9900 1750 10100 1750
-Wire Wire Line
-	9850 1850 10100 1850
-Wire Wire Line
-	10100 1950 9850 1950
-Wire Wire Line
-	9850 2050 10100 2050
-Wire Wire Line
-	10100 2150 9850 2150
-Wire Wire Line
-	9850 2250 10100 2250
-Wire Wire Line
-	9850 2350 10100 2350
-Wire Wire Line
-	10100 2450 9850 2450
-Wire Wire Line
-	9850 2550 10100 2550
-Wire Wire Line
-	10100 2650 9850 2650
-Wire Wire Line
-	9900 2750 10100 2750
-Wire Wire Line
-	10100 2850 9900 2850
-Wire Wire Line
-	9900 2950 10100 2950
-Wire Wire Line
-	10600 1550 10100 1550
-Connection ~ 10100 1550
-Wire Wire Line
-	10100 1650 10600 1650
-Connection ~ 10100 1650
-Wire Wire Line
-	10100 1750 10600 1750
-Connection ~ 10100 1750
-Wire Wire Line
-	10100 1850 10600 1850
-Connection ~ 10100 1850
-Wire Wire Line
-	10100 1950 10600 1950
-Connection ~ 10100 1950
-Wire Wire Line
-	10100 2050 10600 2050
-Connection ~ 10100 2050
-Wire Wire Line
-	10100 2150 10600 2150
-Connection ~ 10100 2150
-Wire Wire Line
-	10600 2250 10100 2250
-Connection ~ 10100 2250
-Wire Wire Line
-	10100 2350 10600 2350
-Connection ~ 10100 2350
-Wire Wire Line
-	10100 2450 10600 2450
-Connection ~ 10100 2450
-Wire Wire Line
-	10100 2550 10600 2550
-Connection ~ 10100 2550
-Wire Wire Line
-	10100 2650 10600 2650
-Connection ~ 10100 2650
-Wire Wire Line
-	10100 2750 10600 2750
-Connection ~ 10100 2750
-Wire Wire Line
-	10100 2850 10600 2850
-Connection ~ 10100 2850
-Wire Wire Line
-	10100 2950 10600 2950
-Connection ~ 10100 2950
 $Comp
 L power:+3V3 #PWR03
 U 1 1 5E559F29
@@ -5665,4 +5579,90 @@ NoConn ~ 5200 5800
 NoConn ~ 3800 6000
 NoConn ~ 3800 6100
 NoConn ~ 3800 6200
+Connection ~ 10100 2950
+Connection ~ 10100 2850
+Connection ~ 10100 2750
+Connection ~ 10100 2650
+Connection ~ 10100 2550
+Connection ~ 10100 2450
+Connection ~ 10100 2350
+Connection ~ 10100 2250
+Connection ~ 10100 2150
+Connection ~ 10100 2050
+Connection ~ 10100 1950
+Connection ~ 10100 1850
+Connection ~ 10100 1750
+Connection ~ 10100 1650
+Connection ~ 10100 1550
+Wire Wire Line
+	10100 2950 10600 2950
+Wire Wire Line
+	9900 2950 10100 2950
+Wire Wire Line
+	10100 2850 10600 2850
+Wire Wire Line
+	10100 2850 9900 2850
+Wire Wire Line
+	10100 2750 10600 2750
+Wire Wire Line
+	9900 2750 10100 2750
+Wire Wire Line
+	10100 2650 10600 2650
+Wire Wire Line
+	10100 2650 9850 2650
+Wire Wire Line
+	10100 2450 10600 2450
+Wire Wire Line
+	10100 2450 9850 2450
+Wire Wire Line
+	10100 2350 10600 2350
+Wire Wire Line
+	9850 2350 10100 2350
+Wire Wire Line
+	10600 2250 10100 2250
+Wire Wire Line
+	9850 2250 10100 2250
+Wire Wire Line
+	10100 2150 10600 2150
+Wire Wire Line
+	10100 2150 9850 2150
+Wire Wire Line
+	10100 1950 10600 1950
+Wire Wire Line
+	10100 1950 9850 1950
+Wire Wire Line
+	10100 1850 10600 1850
+Wire Wire Line
+	9850 1850 10100 1850
+Wire Wire Line
+	10100 1750 10600 1750
+Wire Wire Line
+	9900 1750 10100 1750
+Wire Wire Line
+	10100 1650 10600 1650
+Wire Wire Line
+	9900 1650 10100 1650
+Wire Wire Line
+	10600 1550 10100 1550
+Wire Wire Line
+	9900 1550 10100 1550
+Wire Wire Line
+	9850 2550 10100 2550
+Wire Wire Line
+	10100 2550 10600 2550
+Wire Wire Line
+	10100 2050 10600 2050
+Wire Wire Line
+	9850 2050 10100 2050
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J3
+U 1 1 5E512BAE
+P 10300 2250
+F 0 "J3" H 10350 3167 50  0000 C CNN
+F 1 "Conn_02x15_Top_Bottom" H 10350 3076 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical" H 10300 2250 50  0001 C CNN
+F 3 "~" H 10300 2250 50  0001 C CNN
+	1    10300 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
