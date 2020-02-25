@@ -5507,17 +5507,6 @@ F7 DA DA 29 6E 22 6E 8C 33 D3 F8 FA 35 56 10 0C 94 2A C4 19 56 D3 AF B8 93 83 7B
 A5 10 25 95 6E 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L Connector:Screw_Terminal_01x06 J1
-U 1 1 5EAC1545
-P 6600 2050
-F 0 "J1" H 6680 2042 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" H 6680 1951 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-5-2.5-V-THR_1x05_P2.50mm_Vertical" H 6600 2050 50  0001 C CNN
-F 3 "~" H 6600 2050 50  0001 C CNN
-	1    6600 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 1850 5450 1850
 Wire Wire Line
@@ -5566,9 +5555,9 @@ Wire Wire Line
 Connection ~ 5450 2550
 Wire Wire Line
 	5450 2550 5950 2550
-Text GLabel 6200 2250 0    50   Input ~ 0
-GND
 Text GLabel 6200 2350 0    50   Input ~ 0
+GND
+Text GLabel 6200 2250 0    50   Input ~ 0
 VIN
 Wire Wire Line
 	6200 2250 6400 2250
@@ -5665,4 +5654,49 @@ F 3 "~" H 10300 2250 50  0001 C CNN
 	1    10300 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5E5558A2
+P 6600 2250
+F 0 "J4" H 6680 2242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6680 2151 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 6600 2250 50  0001 C CNN
+F 3 "~" H 6600 2250 50  0001 C CNN
+	1    6600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5E556E6E
+P 6600 1950
+F 0 "J1" H 6680 1942 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 6680 1851 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 6600 1950 50  0001 C CNN
+F 3 "~" H 6600 1950 50  0001 C CNN
+	1    6600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J5
+U 1 1 5E55855D
+P 7450 2850
+F 0 "J5" H 7530 2892 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 7530 2801 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7450 2850 50  0001 C CNN
+F 3 "~" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 2750 0    50   Input ~ 0
+D10
+Text GLabel 7000 2850 0    50   Input ~ 0
+D11
+Text GLabel 7000 2950 0    50   Input ~ 0
+D12
+Wire Wire Line
+	7000 2750 7250 2750
+Wire Wire Line
+	7250 2850 7000 2850
+Wire Wire Line
+	7000 2950 7250 2950
 $EndSCHEMATC
