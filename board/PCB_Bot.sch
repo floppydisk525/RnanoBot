@@ -5680,8 +5680,8 @@ $Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5E55855D
 P 7450 2850
-F 0 "J5" H 7530 2892 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 7530 2801 50  0000 L CNN
+F 0 "J5" H 7550 2850 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 6800 2600 50  0000 L CNN
 F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7450 2850 50  0001 C CNN
 F 3 "~" H 7450 2850 50  0001 C CNN
 	1    7450 2850
