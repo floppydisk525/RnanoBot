@@ -156,7 +156,7 @@ VIN
 Text GLabel 9900 1650 0    50   Input ~ 0
 GND
 Text GLabel 9900 1750 0    50   Input ~ 0
-RST
+RST1
 Text GLabel 9850 1850 0    50   Input ~ 0
 5V
 Text GLabel 9850 1950 0    50   Input ~ 0
@@ -335,7 +335,7 @@ Wire Wire Line
 	3300 750  3300 850 
 Connection ~ 3300 750 
 Wire Wire Line
-	3300 750  3900 750 
+	3300 750  3600 750 
 Wire Wire Line
 	3300 1150 3300 1250
 Wire Wire Line
@@ -5699,4 +5699,18 @@ Wire Wire Line
 	7250 2850 7000 2850
 Wire Wire Line
 	7000 2950 7250 2950
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E56B89A
+P 3600 750
+F 0 "#FLG?" H 3600 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 923 50  0000 C CNN
+F 2 "" H 3600 750 50  0001 C CNN
+F 3 "~" H 3600 750 50  0001 C CNN
+	1    3600 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 750 
+Wire Wire Line
+	3600 750  3900 750 
 $EndSCHEMATC
