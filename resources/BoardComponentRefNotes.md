@@ -18,3 +18,13 @@ Resistors 4.7k 0402 FootPrint
 
 ### Links to Resistor Info  
 [Digikey 4.7kOhm 0402 Footprint](https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K7L/311-4.7KLRCT-ND/2827881)  
+
+## Capacitor Placement Notes  
+### [How to Place PCB Bypass Capacitors - Optimum Design Blog](http://blog.optimumdesign.com/how-to-place-a-pcb-bypass-capacitor-6-tips)  
+![alt text][cap1]  
+
+### [Stack Exchange for Decoupling Cap Placement Question](https://electronics.stackexchange.com/questions/29286/how-important-is-it-to-put-decoupling-caps-on-the-same-side-of-the-pcb)  
+![alt text][cap2]   
+
+[cap1]:/images/CapOppSide.PNG "Cap Placement Example"
+[cap2]:/images/CapDecouplingPlacement.PNG "Cap Placement Example"
