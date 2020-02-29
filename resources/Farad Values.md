@@ -4,10 +4,10 @@
 
 | Decimal | Farad | Footprint Size |
 | --- | --- | --- |
-|.000010|10 uF|	0603 FootPrint  
-|.0000001|.1 uF|  0402 FootPrint  
-|.000000010|10 nF|  0603 FootPrint  
-|.0000001|100 nF|  0402 FootPrint  
+|.000010    | 10 uF |  0603 FootPrint  |
+|.0000001   | .1 uF |  0402 FootPrint  |
+|.000000010 | 10 nF |  0603 FootPrint  |
+|.0000001   | 100 nF|  0402 FootPrint  |
 
 ### Links to Capacitors Digikey  
 [Digikey .1uF 0402 Capacitors](https://www.digikey.com/product-detail/en/murata-electronics/GRM155R71E104KE14J/490-14603-1-ND/6606209)  
