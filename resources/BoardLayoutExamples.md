@@ -31,4 +31,4 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 [boxbot1]:/images/IMG_20160724_100359.jpg "Shield Example"
 [boxbot2]:/images/IMG_20160724_100326.jpg "Shield Example"
 [ce]:/images/ce_nano_breakout.png "Shield Example"
-[gravitech]:/images/GravitechNanoMotorShield.png "Shield Example"
+[gravitech]:/images/GravitechNanoMotorShield.PNG "Shield Example"
