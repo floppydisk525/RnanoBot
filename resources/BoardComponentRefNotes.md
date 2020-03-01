@@ -26,5 +26,10 @@ Resistors 4.7k 0402 FootPrint
 ### [Stack Exchange for Decoupling Cap Placement Question](https://electronics.stackexchange.com/questions/29286/how-important-is-it-to-put-decoupling-caps-on-the-same-side-of-the-pcb)  
 ![alt text][cap2]   
 
+## Add DIODE 1N4007 to VM (VIN) Input
+[Electronic-lab example](https://www.electronics-lab.com/project/3-6a-bidirectional-dc-motor-driver-shield-arduino-nano/)  
+![alt text][elab] 
+
 [cap1]:/images/CapOppSide.PNG "Cap Placement Example"
 [cap2]:/images/CapDecouplingPlacement.PNG "Cap Placement Example"
+[elab]:/images/elecLab1N4007Example.PNG "DIODE Example"

@@ -208,7 +208,7 @@ Text GLabel 1000 1300 2    50   Input ~ 0
 Text GLabel 1150 1150 2    50   Input ~ 0
 3V3
 Text Notes 650  3900 0    50   ~ 0
-TO DO or THINK ABOUT\nterminal blocks\n  2 pos for batt\n  4 pos for motor\n  3 pos for rc pwm input\nAdd to PCB mounting holes for M3 (?) or M2.5\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nReverse voltage protection (ie mosfet?) for battery input\nOther break out features??\n  What about Serial separate from usb (Look into this)\n  Instead of female headers, why not a row of male headers or NONE at ALL?  \nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\n
+TO DO or THINK ABOUT\nAdd dual row headers for rc breakout\nAdd LEDs for "Transmitter OFF" and "CH3 Output ON"\nWhat about a diode for 1N4007 (and resistor?) for VM and Arduino VDD to prevent blowing USB port?\nAdd to PCB mounting holes for M2.5 (maybe M3?)\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nReverse voltage protection (ie mosfet?) for battery input\nOTHER:\nterminal blocks\n  2 pos for batt\n  4 pos for motor\n  3 pos for rc pwm input\nOther break out features??\n  What about Serial separate from usb (Look into this)\n  Instead of female headers, why not a row of male headers or NONE at ALL?  \nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\n
 $Comp
 L power:+7.5V #PWR01
 U 1 1 5E560050
@@ -5660,7 +5660,7 @@ U 1 1 5E5558A2
 P 6600 2250
 F 0 "J4" H 6680 2242 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 6680 2151 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 6600 2250 50  0001 C CNN
+F 2 "Rnanobot:PTSM_Phoenix_Contact_2-pos_Base_Strip_1815264" H 6600 2250 50  0001 C CNN
 F 3 "~" H 6600 2250 50  0001 C CNN
 	1    6600 2250
 	1    0    0    -1  
@@ -5671,34 +5671,17 @@ U 1 1 5E556E6E
 P 6600 1950
 F 0 "J1" H 6680 1942 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 6680 1851 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 6600 1950 50  0001 C CNN
+F 2 "Rnanobot:PTSM_Phoenix_Contact_4-pos_Base_Strip_1815280" H 6600 1950 50  0001 C CNN
 F 3 "~" H 6600 1950 50  0001 C CNN
 	1    6600 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J5
-U 1 1 5E55855D
-P 7450 2850
-F 0 "J5" H 7550 2850 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 6800 2600 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7450 2850 50  0001 C CNN
-F 3 "~" H 7450 2850 50  0001 C CNN
-	1    7450 2850
-	1    0    0    -1  
-$EndComp
-Text GLabel 7000 2750 0    50   Input ~ 0
+Text GLabel 7250 2900 2    50   Input ~ 0
 D10
-Text GLabel 7000 2850 0    50   Input ~ 0
+Text GLabel 7250 3000 2    50   Input ~ 0
 D11
-Text GLabel 7000 2950 0    50   Input ~ 0
+Text GLabel 7250 3100 2    50   Input ~ 0
 D12
-Wire Wire Line
-	7000 2750 7250 2750
-Wire Wire Line
-	7250 2850 7000 2850
-Wire Wire Line
-	7000 2950 7250 2950
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E56B89A
@@ -5713,25 +5696,10 @@ $EndComp
 Connection ~ 3600 750 
 Wire Wire Line
 	3600 750  3900 750 
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5E5C9A80
-P 6400 3200
-F 0 "J6" H 6480 3192 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6480 3101 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 6400 3200 50  0001 C CNN
-F 3 "~" H 6400 3200 50  0001 C CNN
-	1    6400 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 6000 3300 0    50   Input ~ 0
+Text GLabel 6300 2900 0    50   Input ~ 0
 GND
-Text GLabel 6000 3200 0    50   Input ~ 0
+Text GLabel 6300 3100 0    50   Input ~ 0
 5V
-Wire Wire Line
-	6000 3200 6200 3200
-Wire Wire Line
-	6200 3300 6000 3300
 $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5E5F3EC8
@@ -5773,4 +5741,29 @@ NoConn ~ -4400 3000
 NoConn ~ -4400 2900
 NoConn ~ -4400 2800
 NoConn ~ -4400 2700
+Text GLabel 6300 3000 0    50   Input ~ 0
+5V
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 5E5C549C
+P 6800 3000
+F 0 "J5" H 6850 2675 50  0000 C CNN
+F 1 "Conn_02x03_Top_Bottom" H 6850 2766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 6800 3000 50  0001 C CNN
+F 3 "~" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 2900 7250 2900
+Wire Wire Line
+	7000 3000 7250 3000
+Wire Wire Line
+	7000 3100 7250 3100
+Wire Wire Line
+	6500 2900 6300 2900
+Wire Wire Line
+	6500 3000 6300 3000
+Wire Wire Line
+	6500 3100 6300 3100
 $EndSCHEMATC

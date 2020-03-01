@@ -6,7 +6,6 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 ![alt text][boxbot1]  
 ![alt text][boxbot2]  
 
-
 # [Rapidonline Example:](https://www.rapidonline.com/arduino-asx00004-mkr-485-rs485-protocol-shield-for-industrial-connections-73-4854)  
 ![alt text][rapidonline1]  
 ![alt text][rapidonline2]  
@@ -21,6 +20,9 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 # [CE Nano Shield Example](https://shop.controleverything.com/products/arduino-nano-i2c-shield)  
 ![alt text][ce]  
 
+# [Gravitech Nano Motor Shield - Nice!](http://www.gravitech.us/2mwfecoadfor.html)  
+![alt text][gravitech] 
+
 [rapidonline1]:/images/rapidonline1.PNG "Shield Example"
 [rapidonline2]:/images/rapidonline2.PNG "Shield Example"
 [openhardware]:/images/openhardware.PNG "Shield Example"
@@ -29,3 +31,4 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 [boxbot1]:/images/IMG_20160724_100359.jpg "Shield Example"
 [boxbot2]:/images/IMG_20160724_100326.jpg "Shield Example"
 [ce]:/images/ce_nano_breakout.png "Shield Example"
+[gravitech]:/images/GravitechNanoMotorShield.png "Shield Example"
