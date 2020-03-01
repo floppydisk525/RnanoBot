@@ -23,6 +23,10 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 # [Gravitech Nano Motor Shield - Nice!](http://www.gravitech.us/2mwfecoadfor.html)  
 ![alt text][gravitech] 
 
+# RnanoBot - Phoenix Contact Connectors TOO TALL!  
+The beauty of KiCAD 3d - look at how tall those phoenix contact connectors are in the 3d view!  TOO TALL!  Going away from them and to basic .1" headers with [CRHO]{http://dangerousprototypes.com/blog/2017/06/22/dirty-cables-whats-in-that-pile/} connectors.  Easy, cheap, compact, doable!
+![alt text][rnano]
+
 [rapidonline1]:/images/rapidonline1.PNG "Shield Example"
 [rapidonline2]:/images/rapidonline2.PNG "Shield Example"
 [openhardware]:/images/openhardware.PNG "Shield Example"
@@ -32,3 +36,4 @@ The idea is that the board will be a motor shield and accept an arduino Nano.  I
 [boxbot2]:/images/IMG_20160724_100326.jpg "Shield Example"
 [ce]:/images/ce_nano_breakout.png "Shield Example"
 [gravitech]:/images/GravitechNanoMotorShield.PNG "Shield Example"
+[rnano]:/images/RnanoBotphoenixcontactTALL-ugh.jpg "No More Phoenix Contact - too tall!"
