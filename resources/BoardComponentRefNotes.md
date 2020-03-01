@@ -29,6 +29,11 @@ Resistors 4.7k 0402 FootPrint
 ## [Add DIODE 1N4007 to VM (VIN) Input from Electronic-Lab](https://www.electronics-lab.com/project/3-6a-bidirectional-dc-motor-driver-shield-arduino-nano/)  
 ![alt text][elab] 
 
+## [PCB Board SMD (SMT) Relative Sizes](https://electronics.stackexchange.com/questions/375637/difference-between-1206-0805-and-0603-smd-resistor)  
+[Wikipedia Surface-mount_technology](https://en.wikipedia.org/wiki/Surface-mount_technology#Rectangular_passive_components)  
+![alt text][smtsizes]   
+
 [cap1]:/images/CapOppSide.PNG "Cap Placement Example"
 [cap2]:/images/CapDecouplingPlacement.PNG "Cap Placement Example"
 [elab]:/images/elecLab1N4007Example.PNG "DIODE Example"
+[smtsizes]:/images/RelSMT_sizes.png "SMT Sizes"
