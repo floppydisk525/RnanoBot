@@ -6,7 +6,7 @@
 | --- | --- | --- |
 |.000010    | 10 uF |  0603 FootPrint  |
 |.0000001   | .1 uF |  0402 FootPrint  |
-|.000000010 | 10 nF |  0603 FootPrint  |
+|.000000010 | 10 nF |  0402 FootPrint  |
 |.0000001   | 100 nF|  0402 FootPrint  |
 
 ### Links to Capacitors Digikey  
