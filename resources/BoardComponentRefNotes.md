@@ -33,7 +33,12 @@ Resistors 4.7k 0402 FootPrint
 [Wikipedia Surface-mount_technology](https://en.wikipedia.org/wiki/Surface-mount_technology#Rectangular_passive_components)  
 ![alt text][smtsizes]   
 
+## [CRHO 0.1" Connectors - the basic connector!](http://dangerousprototypes.com/blog/2017/06/22/dirty-cables-whats-in-that-pile/) 
+Rather than using the Phoenix Contact connectors (too tall), switch to using the basic CRHO connectors.  
+![alt text][chro]  
+
 [cap1]:/images/CapOppSide.PNG "Cap Placement Example"
 [cap2]:/images/CapDecouplingPlacement.PNG "Cap Placement Example"
 [elab]:/images/elecLab1N4007Example.PNG "DIODE Example"
 [smtsizes]:/images/RelSMT_sizes.png "SMT Sizes"
+[chro]:/images/CRHO.PNG "CRHO Connectors"
