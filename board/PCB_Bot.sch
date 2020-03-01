@@ -203,9 +203,9 @@ F 3 "" H 900 950 50  0001 C CNN
 	1    900  950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 1300 2    50   Input ~ 0
+Text GLabel 1900 1300 2    50   Input ~ 0
 5V
-Text GLabel 1150 1150 2    50   Input ~ 0
+Text GLabel 1400 1150 2    50   Input ~ 0
 3V3
 Text Notes 650  3900 0    50   ~ 0
 TO DO or THINK ABOUT\nAdd dual row headers for rc breakout\nAdd LEDs for "Transmitter OFF" and "CH3 Output ON"\nWhat about a diode for 1N4007 (and resistor?) for VM and Arduino VDD to prevent blowing USB port?\nAdd to PCB mounting holes for M2.5 (maybe M3?)\nDo you want a voltage regulator for 5v into nano?  Can it fit?\nReverse voltage protection (ie mosfet?) for battery input\nOTHER:\nterminal blocks\n  2 pos for batt\n  4 pos for motor\n  3 pos for rc pwm input\nOther break out features??\n  What about Serial separate from usb (Look into this)\n  Instead of female headers, why not a row of male headers or NONE at ALL?  \nWhat about battery stuff?  chargin or monitoring?  if so, how, why?\n
@@ -220,7 +220,7 @@ F 3 "" H 750 950 50  0001 C CNN
 	1    750  950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  1450 2    50   Input ~ 0
+Text GLabel 2400 1450 2    50   Input ~ 0
 VIN
 Text GLabel 3100 750  0    50   Input ~ 0
 5V
@@ -250,12 +250,10 @@ Wire Wire Line
 Connection ~ 4950 750 
 Wire Wire Line
 	4950 750  5250 750 
-Text GLabel 1450 800  0    50   Input ~ 0
+Text GLabel 1000 1700 2    50   Input ~ 0
 GND
 Wire Wire Line
-	1450 800  1600 800 
-Wire Wire Line
-	1600 800  1600 1150
+	750  1700 750  2050
 Wire Wire Line
 	3700 1850 4050 1850
 Text GLabel 3700 2650 0    50   Input ~ 0
@@ -334,8 +332,6 @@ $EndComp
 Wire Wire Line
 	3300 750  3300 850 
 Connection ~ 3300 750 
-Wire Wire Line
-	3300 750  3600 750 
 Wire Wire Line
 	3300 1150 3300 1250
 Wire Wire Line
@@ -416,24 +412,24 @@ Wire Wire Line
 Wire Wire Line
 	750  950  750  1450
 Wire Wire Line
-	750  1450 850  1450
+	750  1450 2300 1450
 Wire Wire Line
 	900  950  900  1300
 Wire Wire Line
-	900  1300 1000 1300
+	900  1300 1850 1300
 Wire Wire Line
 	1050 950  1050 1150
 Wire Wire Line
-	1050 1150 1150 1150
+	1050 1150 1300 1150
 $Comp
 L power:GND #PWR04
 U 1 1 5E51BDF2
-P 1600 1150
-F 0 "#PWR04" H 1600 900 50  0001 C CNN
-F 1 "GND" H 1605 977 50  0000 C CNN
-F 2 "" H 1600 1150 50  0001 C CNN
-F 3 "" H 1600 1150 50  0001 C CNN
-	1    1600 1150
+P 750 2050
+F 0 "#PWR04" H 750 1800 50  0001 C CNN
+F 1 "GND" H 755 1877 50  0000 C CNN
+F 2 "" H 750 2050 50  0001 C CNN
+F 3 "" H 750 2050 50  0001 C CNN
+	1    750  2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5682,20 +5678,6 @@ Text GLabel 7250 3000 2    50   Input ~ 0
 D11
 Text GLabel 7250 3100 2    50   Input ~ 0
 D12
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5E56B89A
-P 3600 750
-F 0 "#FLG0101" H 3600 825 50  0001 C CNN
-F 1 "PWR_FLAG" H 3600 923 50  0000 C CNN
-F 2 "" H 3600 750 50  0001 C CNN
-F 3 "~" H 3600 750 50  0001 C CNN
-	1    3600 750 
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 750 
-Wire Wire Line
-	3600 750  3900 750 
 Text GLabel 6300 2900 0    50   Input ~ 0
 GND
 Text GLabel 6300 3100 0    50   Input ~ 0
@@ -5766,4 +5748,50 @@ Wire Wire Line
 	6500 3000 6300 3000
 Wire Wire Line
 	6500 3100 6300 3100
+Wire Wire Line
+	3300 750  3900 750 
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E5FEFE6
+P 1300 1150
+F 0 "#FLG0101" H 1300 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 1323 50  0000 C CNN
+F 2 "" H 1300 1150 50  0001 C CNN
+F 3 "~" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 1150
+Wire Wire Line
+	1300 1150 1400 1150
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E5FF70B
+P 1850 1300
+F 0 "#FLG0102" H 1850 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 1473 50  0000 C CNN
+F 2 "" H 1850 1300 50  0001 C CNN
+F 3 "~" H 1850 1300 50  0001 C CNN
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1300
+Wire Wire Line
+	1850 1300 1900 1300
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5E5FFA8B
+P 2300 1450
+F 0 "#FLG0103" H 2300 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 1623 50  0000 C CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "~" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1450
+Wire Wire Line
+	2300 1450 2400 1450
+Wire Wire Line
+	750  1700 1000 1700
 $EndSCHEMATC
