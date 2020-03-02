@@ -1,4 +1,4 @@
-#Phoenix Contact links to PTSM Connectors  
+# Phoenix Contact links to PTSM Connectors  
 https://www.digikey.com/products/en?mpart=1704853&v=277   
 https://www.digikey.com/product-detail/en/phoenix-contact/1704857/277-9951-ND/4482512  
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1704857&library=usen&tab=1  
