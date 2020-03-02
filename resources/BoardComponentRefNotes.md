@@ -34,7 +34,7 @@ Resistors 4.7k 0402 FootPrint
 ![alt text][smtsizes]   
 
 ## [CRHO 0.1" Connectors - the basic connector!](http://dangerousprototypes.com/blog/2017/06/22/dirty-cables-whats-in-that-pile/) 
-Rather than using the Phoenix Contact connectors (too tall), switch to using the basic CRHO connectors.  The link from [Dangerous Prototypes](http://dangerousprototypes.com/blog/2017/06/22/dirty-cables-whats-in-that-pile/) was excellent and had a link to Dirty PCBs, which is a good resource (I've heard) for PCB fab AND Cable Fab.
+Rather than using the Phoenix Contact connectors (too tall), switch to using the basic CRHO connectors.  The link from [Dangerous Prototypes](http://dangerousprototypes.com/blog/2017/06/22/dirty-cables-whats-in-that-pile/) is excellent and they have a link to Dirty PCBs, which is a good resource (I've heard) for PCB fab AND Cable Fab.
 ![alt text][chro]  
 
 [cap1]:/images/CapOppSide.PNG "Cap Placement Example"
